@@ -105,6 +105,13 @@
               </li>
               {%- endif %}
             </ul>
+            <!-- Lang Button -->
+             <div>
+             <ul>
+                   <li> <a href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 4 -%}{{ page.url | relative_url | slice: 0,to_size }}_EN">EN</a></li>
+                   <li> <a href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 4 -%}{{ page.url | relative_url | slice: 0,to_size }}_CH">CH</a></li>
+             </ul>
+             </div>
           </div>
         </div>
       </nav>
