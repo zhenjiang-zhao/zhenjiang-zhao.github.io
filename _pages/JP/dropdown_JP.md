@@ -1,7 +1,7 @@
 ---
 layout: page
-title: submenus
-display_lang: EN
+title: submenus_JP
+display_lang: JP
 nav: false
 nav_order: 6
 dropdown: false

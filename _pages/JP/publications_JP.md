@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /research_EN/
-title: research
-display_lang: EN
+permalink: /research_JP/
+title: 研究
+display_lang: JP
 description: All my research can be found here.
 years: [2022]
 nav: true

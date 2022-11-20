@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /repositories_CH/
-title: 仓库
+permalink: /repositories_JP/
+title: repositories_JP
+display_lang: JP
 description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
-nav: true
+nav: false
 nav_order: 3
-display_lang: CH
 ---
 
 ## GitHub users

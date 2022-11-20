@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 项目
-permalink: /projects_CH/
+title: projects_JP
+display_lang: JP
+permalink: /projects_JP/
 description: A growing collection of your cool projects.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
-display_lang: CH
 ---
 
 <!-- pages/projects.md -->
