@@ -1,11 +1,16 @@
 
     <header>
       {%- assign display_lang = page.display_lang -%}
+      {%- if display_lang == site.index_lang -%}
+        {%- assign about_path = '/' -%}
+      {%- else -%}
+        {%- assign about_path = '/' | append: "_" | append: display_lang -%}
+      {%- endif -%}
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% if page.permalink != about_path -%}
+          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | append: about_path }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
@@ -38,15 +43,15 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               {%- for page in site.pages -%}
-                {% if page.permalink == '/' %}
+                {% if page.permalink == about_path %}
                   {% assign about_title = page.title %}
                 {% endif %}
               {% endfor %}
 
               <!-- About -->
-              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
-                  {%- if page.permalink == '/' -%}
+              <li class="nav-item {% if page.permalink == about_path %}active{% endif %}">
+                <a class="nav-link" href="{{ about_path | relative_url }}">{{ about_title }}
+                  {%- if page.permalink == about_path -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -96,6 +101,27 @@
               {% endfor -%}
               {%- if site.enable_darkmode %}
 
+              <!-- Lang Button -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{%- if display_lang == "EN" -%}语言{%- else -%}language{%- endif -%}</a>
+                <div class="dropdown-menu dropdown-menu-right" style="text-align:center;" aria-labelledby="navbarDropdown">
+                  {%- if page.layout == 'about' and page.is_index -%}
+                  <a class="dropdown-item"  href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 0 -%}{{ page.url | relative_url | slice: 0,to_size }}_CH">中文</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item"  href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 0 -%}{{ page.url | relative_url | slice: 0,to_size }}">English</a>
+                  {%- elsif page.layout == 'about' -%}
+                  <a class="dropdown-item"  href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 3 -%}{{ page.url | relative_url | slice: 0,to_size }}_CH">中文</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item"  href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 3 -%}{{ page.url | relative_url | slice: 0,to_size }}">English</a>
+                  {%- else -%}
+                  <a class="dropdown-item"  href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 4 -%}{{ page.url | relative_url | slice: 0,to_size }}_CH">中文</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item"  href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 4 -%}{{ page.url | relative_url | slice: 0,to_size }}_EN">English</a>
+                  {%- endif -%}
+                </div>
+              </li>
+
+
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
@@ -105,13 +131,6 @@
               </li>
               {%- endif %}
             </ul>
-            <!-- Lang Button -->
-             <div>
-             <ul>
-                   <li> <a href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 4 -%}{{ page.url | relative_url | slice: 0,to_size }}_EN">EN</a></li>
-                   <li> <a href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 4 -%}{{ page.url | relative_url | slice: 0,to_size }}_CH">CH</a></li>
-             </ul>
-             </div>
           </div>
         </div>
       </nav>
