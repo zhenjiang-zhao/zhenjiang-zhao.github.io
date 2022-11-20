@@ -10,7 +10,7 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           {% if page.permalink != about_path -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | append: about_path }}/">
+          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | append: about_path }}">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
