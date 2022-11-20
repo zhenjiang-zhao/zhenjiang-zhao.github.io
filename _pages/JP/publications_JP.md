@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /research_JP/
-title: 研究
+title: 研究発表
 display_lang: JP
-description: All my research can be found here.
+description: 
 years: [2022]
 nav: true
 nav_order: 1
@@ -11,25 +11,25 @@ nav_order: 1
 <!-- _pages/publications.md -->
 
 
-### **Publications**
+### **学会発表**
 
 <div class="publications">
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f publication_EN -q @*[year={{y}}]* %}
+  {% bibliography -f publication_JP -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
 
 
-### **Poster Presentation**
+### **ポスター発表**
 
 <div class="publications">
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f poster_EN -q @*[year={{y}}]* %}
+  {% bibliography -f poster_JP -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>

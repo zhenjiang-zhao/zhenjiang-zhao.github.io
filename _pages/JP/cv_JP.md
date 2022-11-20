@@ -1,7 +1,7 @@
 ---
-layout: cv_JP
+layout: cv
 permalink: /cv_JP/
-title: cv
+title: cv_JP
 display_lang: JP
 nav: false
 nav_order: 4
