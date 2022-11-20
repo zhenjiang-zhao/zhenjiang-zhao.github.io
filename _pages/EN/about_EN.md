@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 display_lang: EN
 permalink: /
 is_index: true

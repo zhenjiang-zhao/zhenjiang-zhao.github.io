@@ -103,7 +103,7 @@
 
               <!-- Lang Button -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{%- if display_lang == "EN" -%}言語{%- else -%}language{%- endif -%}</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{%- if display_lang == "EN" -%}言語{%- else -%}Language{%- endif -%}</a>
                 <div class="dropdown-menu dropdown-menu-right" style="text-align:center;" aria-labelledby="navbarDropdown">
                   {%- if page.layout == 'about' and page.is_index -%}
                   <a class="dropdown-item"  href="{%- assign site_size = site.baseurl | size -%}{%- assign to_size = page.url | relative_rul | size | plus: site_size | minus: 0 -%}{{ page.url | relative_url | slice: 0,to_size }}_JP">日本語</a>

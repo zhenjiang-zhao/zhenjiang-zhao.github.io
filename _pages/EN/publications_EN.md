@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research_EN/
-title: research
+title: Research
 display_lang: EN
 description: All my research can be found here.
 years: [2022]
