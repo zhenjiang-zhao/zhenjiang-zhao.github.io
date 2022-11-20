@@ -18,7 +18,7 @@ nav_order: 1
 {% endfor %}
 </div>
 
-### **Poster Presentation**
+### **Poster Presentations**
 
 <div class="publications">
 {%- for y in page.years %}
