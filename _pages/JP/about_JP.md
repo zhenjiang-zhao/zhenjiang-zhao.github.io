@@ -7,7 +7,7 @@ permalink: /_JP
 
 profile:
   align: right
-  image: prof_pic1.png
+#  image: prof_pic1.png
   image_circular: true # crops the image to make it circular
   address: >
 #    <p>555 your office number</p>
@@ -18,7 +18,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-こんにちは！趙 振江と申します。電気通信大学大学院、情報・ネットワーク工学専攻の修士二年生で、
+こんにちは！趙 振江と申します。電気通信大学大学院、情報・ネットワーク工学専攻の博士一年生で、
 [戸田研究室](https://disc.lab.uec.ac.jp/)に所属しています。
 
 ### 研究関心

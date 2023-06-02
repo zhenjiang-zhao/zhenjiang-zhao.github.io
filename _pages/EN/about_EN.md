@@ -8,7 +8,7 @@ is_index: true
 
 profile:
   align: right
-  image: prof_pic1.png
+#  image: prof_pic1.png
   image_circular: true # crops the image to make it circular
   address: >
 #    <p>555 your office number</p>
@@ -19,7 +19,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I am a Masters student at The University of Electro-Communications,
+Hi! I am a PhD student at The University of Electro-Communications,
 and my advisor is [Takahisa Toda](https://disc.lab.uec.ac.jp/index-en.html).
 
 ### Research Interests
