@@ -4,7 +4,7 @@ permalink: /research_EN/
 title: Research
 display_lang: EN
 description: #All my research can be found here.
-years_publication: [2022]
+years_publication: [2023, 2022]
 years_poster: [2023, 2022]
 nav: true
 nav_order: 1
@@ -15,7 +15,7 @@ nav_order: 1
 <div class="publications">
 {%- for y in page.years_publication %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f publication_EN -q @*[year={{y}}]* %}
+  {% bibliography -f publication_EN -q @*[year_o={{y}}]* %}
 {% endfor %}
 </div>
 

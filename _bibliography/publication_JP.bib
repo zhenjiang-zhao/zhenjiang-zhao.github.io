@@ -1,6 +1,33 @@
 ---
 ---
-@InProceedings{10.1007/978-3-031-21251-2_3,
+@article{ZHAO2024107390,
+title = {Diversity-aware fairness testing of machine learning classifiers through hashing-based sampling},
+journal = {Information and Software Technology},
+volume = {167},
+pages = {107390},
+year = {2024},
+year_o = {2023},
+issn = {0950-5849},
+doi = {https://doi.org/10.1016/j.infsof.2023.107390},
+url = {https://www.sciencedirect.com/science/article/pii/S0950584923002458},
+author = {Zhenjiang Zhao and Takahisa Toda and Takashi Kitamura},
+html    = {https://www.sciencedirect.com/science/article/pii/S0950584923002458},
+abbr    = {IST},
+code    = {https://github.com/toda-lab/Vbt-X},
+keywords = {Algorithm fairness, Fairness testing, SAT/SMT solving, Constraint sampling, Hashing-based technique},
+abstract = {Context:
+There are growing concerns about algorithmic fairness, as some machine learning (ML)-based algorithms have been found to exhibit biases against protected attributes such as gender, race, age and so on. Individual fairness requires an ML classifier to produce similar outputs for similar individuals. Verification Based Testing (Vbt) is a state-of-the-art black-box testing algorithm for individual fairness that leverages constraint solving to generate test cases.
+Objective:
+Generating diverse test cases is expected to facilitate efficient detection of diverse discriminatory data instances (i.e., cases that violate individual fairness). Hashing-based sampling techniques draw a sample approximately uniformly at random from the set of solutions of given Boolean constraints. We propose Vbt-X, which improves Vbt with hashing-based sampling, aiming to improve its testing performance.
+Method:
+We realize hashing-based sampling for Vbt. The challenge is that the off-the-shelf hashing-based sampling techniques cannot be integrated in a straightforward manner because the constraints in Vbt are generally not Boolean. Moreover, we propose several enhancement techniques to make Vbt-X more efficient.
+Results:
+To evaluate our method, we conduct experiments, where Vbt-X is compared to Vbt, Sg and ExpGA (other well-known fairness testing algorithms) over a set of configurations consisting of several datasets, protected attributes, and ML classifiers. The results show that, with each configuration, Vbt-X detects more discriminatory data instances with higher diversity than Vbt and Sg. Vbt-X detects discriminatory data instances with higher diversity than ExpGA, though the number of discriminatory data instances detected by Vbt-X is lesser than ExpGA.
+Conclusion:
+Our proposed method performs better than other state-of-the-art black-box fairness testing algorithms, particularly in terms of diversity. Our method can serve to efficiently identify flaws in ML classifiers with respect to individual fairness for subsequent improvements of an ML classifier. On the other hand, although our method is specific to individual fairness, it could work for testing other aspects of a software system such as security and counterfactual explanations with some technical adaptations, which remains for future work.}
+}
+
+@InProceedings{Zhao+SSBSE22,
 author="Zhao, Zhenjiang
 and Toda, Takahisa
 and Kitamura, Takashi",
@@ -9,17 +36,17 @@ and Vergilio, Silvia Regina",
 title="Efficient Fairness Testing Through Hash-Based Sampling",
 booktitle="Proceedings of Search-Based Software Engineering",
 year="2022",
+year_o="2022",
 publisher="Springer International Publishing",
 address="Cham",
 pages="35--50",
 abstract="There is a growing concern on algorithm fairness, according to wider adoption of machine learning techniques in our daily life. Testing of individual fairness is an approach to algorithm fairness concern. Verification Based Testing (VBT) is a state-of-the-art testing technique for individual fairness, that leverages verification techniques using constraint solving. In this paper, we develop a black-box individual fairness testing technique Vbt-X, which applies hash-based sampling techniques to the test case generation part of Vbt, aiming to improve its testing ability. Our evaluation by experiments confirms that Vbt-X improves the testing ability of Vbt by 2.92 times in average.",
 isbn="978-3-031-21251-2",
-bibtex_show={true},
 html    = {https://link.springer.com/chapter/10.1007/978-3-031-21251-2_3},
 abbr    = {SSBSE}
 }
 
-@InProceedings{10.1007/978-3-031-21251-2_7,
+@InProceedings{Kitamura+SSBSE22,
 author="Kitamura, Takashi
 and Zhao, Zhenjiang
 and Toda, Takahisa",
@@ -28,12 +55,12 @@ and Vergilio, Silvia Regina",
 title="Applying Combinatorial Testing to Verification-Based Fairness Testing",
 booktitle="Proceedings of Search-Based Software Engineering",
 year="2022",
+year_o="2022",
 publisher="Springer International Publishing",
 address="Cham",
 pages="101--107",
 abstract="Fairness testing, given a machine learning classifier, detects discriminatory data contained in it via executing test cases. In this paper, we propose a new approach to fairness testing named Vbt-Ct, which applies combinatorial t-way testing (CT) to Verification Based Testing (Vbt). Vbt is a state-of-the-art fairness testing method, which represents a given classifier under test in logical constraints and searches for test cases by solving such constraints. CT is a coverage-based sampling technique, with an ability to sample diverse test data from a search space specified by logical constraints. We implement a proof-of-concept of Vbt-Ct, and see its feasibility by experiments. We also discuss its advantages, current limitations, and further research directions.",
 isbn="978-3-031-21251-2",
-bibtex_show={true},
 html    = {https://link.springer.com/chapter/10.1007/978-3-031-21251-2_7},
 abbr    = {SSBSE}
 }
@@ -45,8 +72,8 @@ abbr    = {SSBSE}
   volume={JSAI2022},
   pages={4K1GS105-4K1GS105},
   year={2022},
+  year_o="2022",
   doi={10.11517/pjsai.JSAI2022.0_4K1GS105},
-  bibtex_show={true},
   html     = {https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_4K1GS105/_article/-char/ja},
   abbr     = {JSAI},
   abstract = {CDCLソルバーでは多くの学習節を計算してしまう可能性もあるため，積極的に不要な学習節を削除するためのヒューリスティックが活用されている．このため，CDCLソルバーの実行中には，同じ節を複数回学習し，削除する場合がある．近年の研究では，重複学習節を削除しないことでCDCLソルバーの効率が上がる結果が報告されている．本論文では，この手法の改善として，類似した学習節を削除しないようにするヒューリスティックを提案する．このヒューリスティックの実験評価をSAT Competitions 2020と2021のベンチマークで行い，先行手法との性能比較を行う．}
