@@ -23,6 +23,7 @@ social: false # true  # includes social icons at the bottom of the page
 
 ### 研究関心
 
+- 機械学習モデルのテスト
 - アルゴリズムの公平性
 - 公平性テスト
 - SAT/SMT求解
