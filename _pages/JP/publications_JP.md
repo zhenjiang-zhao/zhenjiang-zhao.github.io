@@ -4,15 +4,15 @@ permalink: /research_JP/
 title: 研究発表
 display_lang: JP
 description: 
-years_publication: [2023, 2022]
-years_poster: [2023, 2022]
+years_publication: [2024, 2023, 2022]
+years_poster: [2024, 2023, 2022]
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
 
-### **雑誌論文・論文学会**
+### **雑誌論文・学会論文**
 
 <div class="publications">
 
