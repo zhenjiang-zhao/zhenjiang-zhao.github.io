@@ -5,7 +5,7 @@ title: Research
 display_lang: EN
 description: #All my research can be found here.
 years_publication: [2024, 2023, 2022]
-years_poster: [2024, 2023, 2022]
+years_poster: [2025, 2024, 2023, 2022]
 nav: true
 nav_order: 1
 ---
