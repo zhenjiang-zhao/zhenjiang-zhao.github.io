@@ -19,7 +19,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false #true  # includes social icons at the bottom of the page
 ---
-Hi! I am a PhD student at the University of Electro-Communications under the guidance of [Professor Toda](https://disc.lab.uec.ac.jp/index-en.html).
+Hi! I am a PhD student at the University of Electro-Communications under the guidance of [Professor Toda](https://disc.lab.uec.ac.jp/toda/index-en.html).
 
 ### Research Interests
 
