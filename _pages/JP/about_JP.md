@@ -18,12 +18,13 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # true  # includes social icons at the bottom of the page
 ---
-こんにちは！趙 振江と申します。電気通信大学大学院、情報・ネットワーク工学専攻の博士三年生で、
-[戸田研究室](https://disc.lab.uec.ac.jp/)に所属しています。
+こんにちは！趙 振江と申します。電気通信大学 情報・ネットワーク工学専攻 コンピュータサイエンスプログラムの助教です。
 
 ### 研究関心
 
+- AIのためのソフトウェア工学 (SE for AI)
+- ソフトウェア工学のためのAI (AI for SE)
+- 信頼できるAI
 - 機械学習モデルのテスト
-- アルゴリズムの公平性
 - 公平性テスト
-- SAT/SMT求解
+- 形式手法

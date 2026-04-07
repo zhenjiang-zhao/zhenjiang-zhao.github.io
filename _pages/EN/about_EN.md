@@ -19,11 +19,13 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false #true  # includes social icons at the bottom of the page
 ---
-Hi! I am a PhD student at the University of Electro-Communications under the guidance of [Professor Toda](https://disc.lab.uec.ac.jp/toda/index-en.html).
+Hi! I am an assistant professor in the Computer Science Program at the University of Electro-Communications.
 
 ### Research Interests
 
+- Software Engineering for AI (SE for AI)
+- AI for Software Engineering (AI for SE)
+- Trustworthy AI
 - Machine Learning Testing
-- Algorithmic Fairness
 - Fairness Testing
-- SAT/SMT Solving
+- Formal Methods

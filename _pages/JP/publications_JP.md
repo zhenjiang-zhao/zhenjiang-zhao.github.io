@@ -4,7 +4,7 @@ permalink: /research_JP/
 title: 研究発表
 display_lang: JP
 description: 
-years_publication: [2024, 2023, 2022]
+years_publication: [2025, 2024, 2023, 2022]
 years_poster: [2025, 2024, 2023, 2022]
 nav: true
 nav_order: 1
