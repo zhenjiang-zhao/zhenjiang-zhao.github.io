@@ -1,5 +1,33 @@
 ---
 ---
+@article{Ohashi+SIGFPAI26,
+  title={Developing a General-Purpose Testing Tool for Machine Learning Robustness},
+  author={Kento Ohashi and Zhenjiang Zhao and Takahisa Toda},
+  journal={Proceedings of SIG on Fundamental Problems of Artificial Intelligence},
+  volume={135},
+  pages={79-84},
+  year={2026},
+  year_o="2026",
+  doi={10.11517/jsaifpai.135.0_79},
+  html     = {https://www.jstage.jst.go.jp/article/jsaifpai/135/0/135_79/_article/-char/en},
+  abbr     = {SIG-FPAI},
+  abstract = {This paper proposes a general-purpose robustness testing tool for machine learning models, particularly focusing on handling heterogeneous tabular data with feature constraints and diverse model architectures. The method utilizes Targeted Property-Based Testing (TPBT) from software engineering, implemented using the Hypothesis library. To address the limitations of simple robustness testing, we introduce two utility functions for TPBT: one based on the rank change of probability scores (tpbtb) and another on the difference from the top probability score (tpbtm). Furthermore, a penalty term is incorporated into the utility function to suppress the generation of invalid adversarial examples that violate feature constraints, which is crucial for tabular data. Preliminary experiments in unconstrained setting on the Bank dataset using GBDT and MLP models demonstrate that the tpbtm utility function outperforms basic PBT and tpbtb in terms of execution time and success rate when searching for adversarial examples given maximum perterbation thresholds.}
+}
+
+@article{Ishii+SIGFPAI26,
+  title={Improving the Approximation Performance of Surrogate Models in Black-Box Fairness Testing of Machine Learning},
+  author={Saki Ishii and Zhenjiang Zhao and Takahisa Toda},
+  journal={Proceedings of SIG on Fundamental Problems of Artificial Intelligence},
+  volume={135},
+  pages={73-78},
+  year={2026},
+  year_o="2026",
+  doi={10.11517/jsaifpai.135.0_73},
+  html     = {https://www.jstage.jst.go.jp/article/jsaifpai/135/0/135_73/_article/-char/en},
+  abbr     = {SIG-FPAI},
+  abstract = {This paper addresses the black-box fairness testing of machine learning models, specifically focusing on improving the approximation performance of surrogate models. Traditional fairness testing primarily emphasized efficiency (the number of discriminatory instances found per unit time), often overlooking coverage, which can lead to findings clustered in a narrow area. To address this, the study introduces the metrics of Precision (equivalent to the conventional success rate) and Recall (coverage of discriminatory data) from information retrieval into the fairness testing field. A new, meaningful definition of Recall is proposed using Monte Carlo methods and spatial "quantization". Building on the state-of-the-art AFT (Approximation-Guided Fairness Testing) method, the paper proposes and evaluates two new approaches that prioritize Recall: one that resets the oracle data and discards failure data (Method A), and another that resets the oracle data but adds failure data (Method B). Experimental results show that Method A, which emphasizes resetting the oracle data and discarding failure data, improves Recall compared to other methods, though at the expense of lower Precision and efficiency.}
+}
+
 @article{Zhao+arXiv25,
   title={Quantitative Verification of Fairness in Tree Ensembles},
   author={Zhao, Zhenjiang and Toda, Takahisa and Kitamura, Takashi},
