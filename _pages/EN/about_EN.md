@@ -19,13 +19,12 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false #true  # includes social icons at the bottom of the page
 ---
-Hi! I am an assistant professor in the Computer Science Program at the University of Electro-Communications.
+Hi! I am an assistant professor in the Computer Science Program<br>at the University of Electro-Communications.
 
-### Research Interests
+As AI rapidly advances and becomes widely used, my research is driven by a central question:
 
-- Software Engineering for AI (SE for AI)
-- AI for Software Engineering (AI for SE)
-- Trustworthy AI
-- Machine Learning Testing
-- Fairness Testing
-- Formal Methods
+<p style="text-align: center;"><strong><em>How can we assess whether AI systems are trustworthy, and how can we make them more trustworthy?</em></strong></p>
+
+On one hand, I study how techniques from Software Engineering (SE), such as testing, verification, and formal methods, can be used to evaluate and improve the reliability, fairness, and safety of AI systems. This is part of my main research direction, **Software Engineering for AI (SE4AI)**. On the other hand, as AI is increasingly used for code generation and software development, I am also interested in **AI for Software Engineering (AI4SE)**, especially quality assurance and reliability issues in AI-assisted coding.
+
+*If you are interested in discussing or collaborating on trustworthy AI, SE4AI/AI4SE, or machine learning testing and verification, please feel free to contact me.*

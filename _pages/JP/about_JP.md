@@ -18,13 +18,12 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # true  # includes social icons at the bottom of the page
 ---
-こんにちは！趙 振江と申します。電気通信大学 情報・ネットワーク工学専攻 コンピュータサイエンスプログラムの助教です。
+こんにちは！趙 振江と申します。電気通信大学 情報・ネットワーク工学専攻<br>コンピュータサイエンスプログラムの助教です。
 
-### 研究関心
+AI が急速に発展し、さまざまな場面で広く利用されるようになった現在、私の研究は次の問いを中心に進めています。
 
-- AIのためのソフトウェア工学 (SE for AI)
-- ソフトウェア工学のためのAI (AI for SE)
-- 信頼できるAI
-- 機械学習モデルのテスト
-- 公平性テスト
-- 形式手法
+<p style="text-align: center;"><strong><em>AI システムが信頼できるかをどのように判断し、さらにどのように信頼性を高められるか。</em></strong></p>
+
+一つの方向として、ソフトウェア工学（Software Engineering, SE）におけるテスト、検証、形式手法を用いて、AI システムの信頼性、公平性、安全性を評価し、向上させる研究に取り組んでいます。これは、現在の主な研究分野である <strong>Software Engineering for AI（SE4AI）</strong> に位置づけられます。もう一つの方向として、AI がコード生成やソフトウェア開発に広く使われるようになっていることを踏まえ、<strong>AI for Software Engineering（AI4SE）</strong>、特に コード生成AI の品質保証と信頼性の問題にも関心を持っています。
+
+<em>信頼できる AI、SE4AI/AI4SE、機械学習のテスト・検証に関する議論や共同研究にご関心のある方は、ぜひお気軽にご連絡ください。</em>
