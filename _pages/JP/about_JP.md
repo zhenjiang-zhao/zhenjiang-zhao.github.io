@@ -18,7 +18,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # true  # includes social icons at the bottom of the page
 ---
-こんにちは！趙 振江と申します。電気通信大学 情報・ネットワーク工学専攻<br>コンピュータサイエンスプログラムの助教です。
+こんにちは！趙 振江と申します。<br>電気通信大学 情報・ネットワーク工学専攻 コンピュータサイエンスプログラムの助教です。
 
 AI が急速に発展し、さまざまな場面で広く利用されるようになった現在、私の研究は次の問いを中心に進めています。
 

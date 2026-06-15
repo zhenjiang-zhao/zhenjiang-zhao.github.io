@@ -13,3 +13,9 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+// Restore true bold: MDBootstrap renders <strong>/<b> at a medium 500 weight,
+// which barely reads as bold (especially for Japanese text).
+strong, b {
+  font-weight: 700;
+}

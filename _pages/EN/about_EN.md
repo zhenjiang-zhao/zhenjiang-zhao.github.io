@@ -19,7 +19,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false #true  # includes social icons at the bottom of the page
 ---
-Hi! I am an assistant professor in the Computer Science Program<br>at the University of Electro-Communications.
+Hi! I am an assistant professor in the Computer Science Program at the University of Electro-Communications.
 
 As AI rapidly advances and becomes widely used, my research is driven by a central question:
 
