@@ -87,6 +87,16 @@
         {%- capture link -%}https://www.researchgate.net/profile/{{site.research_gate_profile}}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- assign schema_researchmap_url = site.researchmap_url -%}
+    {%- if page.display_lang == "EN" and site.researchmap_url_en -%}
+        {%- assign schema_researchmap_url = site.researchmap_url_en -%}
+    {%- elsif page.display_lang == "JP" and site.researchmap_url_jp -%}
+        {%- assign schema_researchmap_url = site.researchmap_url_jp -%}
+    {%- endif -%}
+    {%- if schema_researchmap_url -%}
+        {%- capture link -%}{{ schema_researchmap_url }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.github_username -%}
         {%- capture link -%}https://github.com/{{ site.github_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
