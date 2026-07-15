@@ -12,7 +12,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 
 
-### **雑誌論文・学会論文**
+### **学術雑誌論文・会議論文**
 
 <div class="publications">
 
